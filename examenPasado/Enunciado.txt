@@ -1,0 +1,27 @@
+Se requiere desarrollar un diagrama de clases para un sistema que administra maratones.Cada 
+maraton debe registrar un nombre, la fecha de realizacion, y el lugar donde se llevara acabo.
+Cada maraton tiene un unico organizador que es la persona responsable del evento e indispensable
+para su realizacion. De este organizador se desea saber su nombre, edad ,genero y numero de telefono
+ademas cada maraton tiene una lista de varias carreras. De cada carrera se necesita registrar la hora 
+de inicio, la longitud del recorrido y se debe mantener una lista de los corredores inscritos en la
+competicion. De cada corredor se desea almacenar su nombre, dedad, genero, y el numero asignado para 
+la competicion. Adicionalmente para finalizar cada evento se otorgan medallas a los corredores, por 
+lo que se debe considerar tambien en el sistema, cada medalla debe incluir el numero asignado al 
+corredor, la categoria y el año en que se otorgo.
+Diseña el diagrama de clases correspondiente a este sistema, asi como las relaciones entre ellas.
+
+Problemas para resolver en el laboratorio:
+a) Implementar todas las clases con sus respectivos constructores y algun metodo para 
+mostrar datos(4 pts.)
+b)Instanciar 1 maraton , 2 Carreras  y 4 corredores, ademas de 2 medallas. (2 pts.)
+c)Sobrecargar el operador (-) para agregar corredores a una Carrera.(2 pts.)
+d) Sobrecargar el operador (+) ara agregare carreras a una maraton. (2 pts.)
+e) A cada carrera agregar 2 corredores y agregar las dos carreras a la maraton y mostrar la 
+Maraton(2 pts.)
+f) Crear un metodo para verificar si en la carrera con longitud de recorrido x se encuentra el coredor 
+con nombre y. (2 pts.)
+g) Crear un metodo para verifica si en la maraton algun corredor es menor de edad (2 pts.)
+h) Crear un metodo para mostrar el nombre de los corredores que ganaron alguna medalla (2 pts.)
+
+i) Crear un metodo que devuelva la cantidad de corredores del genero "femenino" en toda la
+Maraton (2 pts.)
