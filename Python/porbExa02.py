@@ -48,7 +48,6 @@ class Cine:
             return self
         
     def ordenar(self):
-        [2,3,5,1,6]
         n = self.__cantPeliculas
         for i in range(n-1):
             for j in range(n-1-i):
