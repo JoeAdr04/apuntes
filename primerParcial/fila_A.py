@@ -107,6 +107,7 @@ class main():
     
     print(t01+(t02,"saul")) #la funcion creada nos obliga a mandar dos parametros de golpe
                             #tambien podriamos llamar al valor de x por teclado
+                            #para la fila b solo cambiaria el orden: print(t02+(t01,"saul")) (considrenaod que son objetos Ministerio)
     
     print("---------sobrecargar para mayor edad---------")
     mayEdad=t01.mayorEdad()
